@@ -1,0 +1,11 @@
+blinker==1.6.3
+click==8.1.7
+colorama==0.4.6
+dlib @ file:///D:/Development/EyeTry-FlaskAPI/dlib-19.24.1-cp311-cp311-win_amd64.whl
+Flask==3.0.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+numpy==1.26.1
+opencv-python==4.8.1.78
+Werkzeug==3.0.0
