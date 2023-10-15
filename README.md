@@ -24,27 +24,30 @@ Simple flask app that provides api endpoint for ipd distance measurement.
    ```bash 
    pip install dlib-19.24.1-cp311-cp311-win_amd64.whl
    ```
-## Downloadin shape_predictor_68_face_landmarks.dat
-  -- This file can be downloadeed from [this github repository](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
+## Downloading shape_predictor_68_face_landmarks.dat
+  - This file can be downloadeed from [this github repository](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
 )
+  - Place this in the root of repository 
 
 ## Running the App
 
-1. Download shape_predictor_68_face_landmarks.dat file (Apprx 95 mb) and place it in the root of the repo
-2. Setting the Environment Variables
+1. Setting the Environment Variables
   ```bash
     set FLASK_APP=app.py
     set FLASK_ENV=development
   ```
-3. Running the App
+2. Running the App
+   
    ```bash
    flask run -p PORTNO  # Replace PORTNO with the desired port number (default is 5000)
    ```
+   
    OR use this command if flask is not set in path variable
+   
    ```bash
    python -m flask run -p PORTNO  # Replace PORTNO with the desired port number (default is 5000)
    ```
-5. API Endpoint to measure ipd
+## API Endpoint to measure ipd
    Send an HTTP POST request to http://127.0.0.1:5000/measure_ipd, server will return the ipd distance in millimetres 
  
 
