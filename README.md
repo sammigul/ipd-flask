@@ -40,7 +40,11 @@ Simple flask app that provides api endpoint for ipd distance measurement.
    ```bash
    flask run -p PORTNO  # Replace PORTNO with the desired port number (default is 5000)
    ```
-4. API Endpoint to measure ipd
+   OR use this command if flask is not set in path variable
+   ```bash
+   python -m flask run -p PORTNO  # Replace PORTNO with the desired port number (default is 5000)
+   ```
+5. API Endpoint to measure ipd
    Send an HTTP POST request to http://127.0.0.1:5000/measure_ipd, server will return the ipd distance in millimetres 
  
 
