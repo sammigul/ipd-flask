@@ -48,7 +48,12 @@ Simple flask app that provides api endpoint for ipd distance measurement.
    python -m flask run -p PORTNO  # Replace PORTNO with the desired port number (default is 5000)
    ```
 ## API Endpoint to measure ipd
+
    Send an HTTP POST request to http://127.0.0.1:5000/measure_ipd, server will return the ipd distance in millimetres 
+
+## Image Input Instructions
+- Aruco Marker File([75mm.pdf](https://github.com/sammigul/ipd-flask/edit/main/75mm.pdf)) is to be downloaded and printed.
+- Some sample images have been uploaded ([5.jpg](https://github.com/sammigul/ipd-flask/edit/main/5.jpg) and [6.jpg](https://github.com/sammigul/ipd-flask/edit/main/6.jpg)), you can use them for testing purpose
  
 
 
